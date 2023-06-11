@@ -14,6 +14,10 @@
 		747A21B02A366905002ECC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747A21AF2A366905002ECC47 /* Assets.xcassets */; };
 		747A21B32A366905002ECC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A21B12A366905002ECC47 /* LaunchScreen.storyboard */; };
 		747A21BB2A368B33002ECC47 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21BA2A368B33002ECC47 /* RootTableViewController.swift */; };
+		747A21BE2A368D72002ECC47 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21BD2A368D72002ECC47 /* Adventure.swift */; };
+		747A21C02A368D9A002ECC47 /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21BF2A368D9A002ECC47 /* Credits.swift */; };
+		747A21C22A368DC3002ECC47 /* StoryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21C12A368DC3002ECC47 /* StoryNode.swift */; };
+		747A21C42A368DEB002ECC47 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21C32A368DEB002ECC47 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		747A21B22A366905002ECC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		747A21B42A366905002ECC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747A21BA2A368B33002ECC47 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		747A21BD2A368D72002ECC47 /* Adventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		747A21BF2A368D9A002ECC47 /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		747A21C12A368DC3002ECC47 /* StoryNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryNode.swift; sourceTree = "<group>"; };
+		747A21C32A368DEB002ECC47 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,28 @@
 		747A21A52A366902002ECC47 /* MYOA-Data */ = {
 			isa = PBXGroup;
 			children = (
+				747A21BC2A368D56002ECC47 /* Models */,
 				747A21A62A366902002ECC47 /* AppDelegate.swift */,
 				747A21A82A366902002ECC47 /* SceneDelegate.swift */,
 				747A21AA2A366902002ECC47 /* StoryNodeViewController.swift */,
+				747A21BA2A368B33002ECC47 /* RootTableViewController.swift */,
 				747A21AC2A366902002ECC47 /* Main.storyboard */,
 				747A21AF2A366905002ECC47 /* Assets.xcassets */,
 				747A21B12A366905002ECC47 /* LaunchScreen.storyboard */,
 				747A21B42A366905002ECC47 /* Info.plist */,
-				747A21BA2A368B33002ECC47 /* RootTableViewController.swift */,
 			);
 			path = "MYOA-Data";
+			sourceTree = "<group>";
+		};
+		747A21BC2A368D56002ECC47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				747A21BD2A368D72002ECC47 /* Adventure.swift */,
+				747A21BF2A368D9A002ECC47 /* Credits.swift */,
+				747A21C12A368DC3002ECC47 /* StoryNode.swift */,
+				747A21C32A368DEB002ECC47 /* Connection.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +164,10 @@
 				747A21AB2A366902002ECC47 /* StoryNodeViewController.swift in Sources */,
 				747A21A72A366902002ECC47 /* AppDelegate.swift in Sources */,
 				747A21A92A366902002ECC47 /* SceneDelegate.swift in Sources */,
+				747A21C42A368DEB002ECC47 /* Connection.swift in Sources */,
+				747A21BE2A368D72002ECC47 /* Adventure.swift in Sources */,
+				747A21C02A368D9A002ECC47 /* Credits.swift in Sources */,
+				747A21C22A368DC3002ECC47 /* StoryNode.swift in Sources */,
 				747A21BB2A368B33002ECC47 /* RootTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

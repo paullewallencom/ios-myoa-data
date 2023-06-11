@@ -8,9 +8,10 @@
 import UIKit
 
 // MARK: - AppDelegate: UIResponder, UIApplicationDelegate
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     // MARK: Properties
     
     var window: UIWindow?

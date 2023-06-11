@@ -10,7 +10,7 @@ import UIKit
 // MARK: - RootTableViewController: UITableViewController
 
 class RootTableViewController: UITableViewController {
-
+    
     // MARK: Properties
     
     var adventures = [Adventure]()
@@ -66,7 +66,7 @@ class RootTableViewController: UITableViewController {
         let firstNodeInTheAdventure = selectedAdventure.startNode
 
         // Get a StoryNodeController from the Storyboard
-        let storyNodeController = self.storyboard!.instantiateViewController(withIdentifier: "StoryNodeViewController")as! StoryNodeViewController
+        let storyNodeController = self.storyboard!.instantiateViewController(withIdentifier: "StoryNodeViewController") as! StoryNodeViewController
         
         // Set the story node so that we will see the start of the story
         storyNodeController.storyNode = firstNodeInTheAdventure
